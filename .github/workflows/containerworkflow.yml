@@ -1,7 +1,7 @@
 name: Container Workflow
 on: 
   push:
-    workflow_dispatch:
+  workflow_dispatch:
 
 env:
   ACR_LOGON_SERVER: ${{ secrets.ACR_NAME }}.azurecr.io
